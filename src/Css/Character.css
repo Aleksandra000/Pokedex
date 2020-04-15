@@ -1,0 +1,95 @@
+.poke-character{
+    width: 70%;
+    height: 500px;
+    margin-top: 20px;
+}
+.poke-character-list{
+   height: 100%;
+}
+.poke-character-data{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+         /*background-color: red;*/
+ }
+.poke-character-data-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+    /*background-color: violet;*/
+}
+.aaa{
+    border-bottom: 1px solid darkgrey;
+}
+.poke-character-data-img{
+    display: flex;
+    align-items: center;
+    /*background-color: yellow;*/
+    /*height: 100%;*/
+    width: 20%;
+}
+.poke-character-data-txt{
+    display: flex;
+    flex-direction: row;
+    /*padding: 10px 10px 10px 10px;*/
+    /*background-color: blue;*/
+    height: 100%;
+    width: 100%;
+}
+.ttt{
+    display: flex;
+    flex-direction: row;
+    /*background-color: green;*/
+    /*width: 100%;*/
+}
+.www{
+    /*background-color: teal;*/
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+
+}
+.type{
+    border: 3px solid green;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ability{
+    border: 3px solid blueviolet;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*width: 100px;*/
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pion{
+    display: flex;
+    flex-direction: column;
+}
+.prawa{
+    text-align: right;
+    margin-bottom: 3px;
+}
+.progress-wdt{
+    width: 200px;
+    margin-bottom: 5px;
+}
+/*.rrr{*/
+/*    padding-right: 200px;*/
+/*}*/

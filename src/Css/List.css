@@ -1,0 +1,21 @@
+.list{
+    display: block;
+}
+.poke-list{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 30px 0 30px;
+    box-shadow: #282c34;
+}
+button{
+    margin: 5px;
+    width:200px;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #9999FF;*/
+}

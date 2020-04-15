@@ -1,0 +1,24 @@
+h2:first-letter{
+    text-transform: capitalize;
+}
+.list-group-item{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+flex-direction: column;
+    justify-content: space-between;
+}
+.list-group-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-header{
+    background-color: #9999FF;
+    text-decoration: none;
+}
+.poke-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
