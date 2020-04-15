@@ -29,8 +29,8 @@
     display: flex;
     align-items: center;
     /*background-color: yellow;*/
-    /*height: 100%;*/
-    width: 20%;
+    /*height: 200px;*/
+    width: 30%;
 }
 .poke-character-data-txt{
     display: flex;
@@ -84,12 +84,9 @@
 }
 .prawa{
     text-align: right;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
 }
 .progress-wdt{
     width: 200px;
-    margin-bottom: 5px;
+    margin-bottom: 11px;
 }
-/*.rrr{*/
-/*    padding-right: 200px;*/
-/*}*/

@@ -9,9 +9,6 @@ class PokeCharacter extends React.Component{
             pokemonIndex: '',
             imageUrl: '',
             types:[],
-            // description: '',
-            // statTitleWidth: 3,
-            // statBarWidth: 9,
             url:[],
             height:'',
             weight:'',
@@ -113,7 +110,7 @@ class PokeCharacter extends React.Component{
 {/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/}
                                         <div className="col-md-6"
                                              style={{
-                                            paddingRight:"250px"}}>
+                                            paddingRight:"150px"}}>
                                             <div className="row">
 
                                                 <div className="col-6">
@@ -122,12 +119,15 @@ class PokeCharacter extends React.Component{
                                                 <div className="col-6"></div>
 
                                                 <div className="col-6">
-                                                    <h6 className="float-right pion"> {this.state.stats.map(type => (
+                                                    <div className="float-right pion"
+                                                        style={{
+                                                        width:"200px"}}
+                                                    > {this.state.stats.map(type => (
                                                         <span className="prawa" key={type} >  {type.stat.name} </span>
-                                                    ))}</h6>
+                                                    ))}</div>
                                                 </div>
                                                 <div className="col-6">
-                                                    <h6 className="float-left pion"> {this.state.stats.map(type => (
+                                                    <div className="float-left pion"> {this.state.stats.map(type => (
 
                                                         <div className="progress progress-wdt">
                                                             <div className="progress-bar"  role="progressbar"
@@ -140,7 +140,7 @@ class PokeCharacter extends React.Component{
                                                         </div>
 
                                                         // <span key={type} >  {type.base_stat}</span>
-                                                    ))}</h6>
+                                                    ))}</div>
                                                 </div>
 
 
